@@ -13,7 +13,7 @@ AA / CR v10.5+
 
 ### Available Functions (Metabot) SP0
 
-* Get Number of Lines
+* Run Command with External Interpreters
 
 
 ### Documentation
@@ -28,5 +28,3 @@ The metabot folder contains the source code for the dll file that the metabot re
 ## Authors
 
 * **Bren Sapience** - *Initial work* - [GitHub](https://github.com/BrendanSapience)
-
-
