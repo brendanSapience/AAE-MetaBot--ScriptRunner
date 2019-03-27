@@ -11,12 +11,16 @@ namespace Testpp
     {
         static void Main(string[] args)
         {
-            Class1 c1 = new Class1();
+            RunCommand c1 = new RunCommand();
             CmdResponse res = new CmdResponse();
 
-            String RESP = c1.run_cmd("C:\\Python27\\python.exe","C:\\Python27\\test.py", "");
-            Console.WriteLine(RESP);
-            //Console.WriteLine(res.RetCode);
+            // Return Code | Std Output | Std Error
+            //String RESP = c1.run_cmd("C:\\Python27\\python.exe", "C:\\Python27\\test.py", "123 345", "|");
+            //Console.WriteLine(RESP);
+
+             String RESP1 = c1.run_os_cmd("ipconfig", "/all","|");
+           Console.WriteLine(RESP1);
+            Console.WriteLine(res.RetCode);
             Console.ReadKey();
 
         }
