@@ -13,12 +13,14 @@ AA / CR v10.5+
 
 ### Available Functions (Metabot) SP0
 
-* Run Command with External Interpreters
+* Run Script with Interpreter and Arguments
+* Run OS Command
 
 
 ### Documentation
 
-see MS Word document in "Documentation" folder for specifics.
+see MS Word document in "Documentation" folder for specifics. Check out the demo video under "Documentation\Examples"
+all taskbots and scripts used in the video are in the same folder
 
 ## Contributing
 
