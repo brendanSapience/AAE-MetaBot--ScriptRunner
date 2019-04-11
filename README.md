@@ -1,6 +1,6 @@
 # Metabot for running Scripts with different interpreters
 
-Automation Anywhere Metabot for CSV Processing
+Automation Anywhere Metabot for running external scripts and OS Commands while capturing the Return Code, Standard output and Standard error.
 
 ## Getting Started
 
@@ -8,7 +8,7 @@ Go to the mbot delivery folder, download the mbot file and add it to your AA Cli
 
 ### Prerequisites
 
-AA / CR v10.5+
+AA / CR v11+
 
 
 ### Available Functions (Metabot) SP0
